@@ -1,0 +1,24 @@
+# 環境変数（機密情報を含むため、GitHubにpushしない）
+# ローカルでのみ使用し、各環境で個別に設定する
+.env.local
+.env*.local
+
+# Node.js
+node_modules/
+.next/
+out/
+build/
+
+# デバッグログ
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+*.pem
+
+# その他
+.vercel
+*.tsbuildinfo
+next-env.d.ts
