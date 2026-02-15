@@ -104,7 +104,7 @@ export default function AnalyticsPage() {
           <Link href="/" className="text-blue-600 hover:underline mb-4 inline-block">
             ← ホームに戻る
           </Link>
-          <h1 className="text-3xl font-bold">工数分析</h1>
+          <h1 className="text-3xl font-bold">勤務統計</h1>
         </div>
 
         {isLoading ? (
